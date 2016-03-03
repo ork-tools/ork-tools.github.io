@@ -1,21 +1,22 @@
 ---
 layout: page
-title: Concept Glossary
+title: concept glossary
 ---
 
-**Bounded Context** [see](http://martinfowler.com/bliki/BoundedContext.html)
+**bounded context** [see](http://martinfowler.com/bliki/BoundedContext.html)
 
 : A self-contained and complete unit of a system model.
 
-**Core**
+**core logic**
 
-: the central processes in the system.
+: the behaviors in the domain aggregates and process managers. Core logic is "pure" in that it has no
+immediate side effects, but instead 
 
-**Kernel**
+**kernel**
 
 : a unit of domain code that can be trusted and shared among bounded contexts
 
-**Processor**
+**processor**
 
 : provides orchestrations in the system [[core]].
 
